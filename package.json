@@ -1,0 +1,69 @@
+{
+  "name": "anjie-base",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@types/node": "^16.11.7",
+    "@types/nprogress": "^0.2.0",
+    "@types/path-browserify": "^1.0.0",
+    "@types/sortablejs": "^1.15.8",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.6.0",
+    "fast-glob": "^3.2.11",
+    "husky": "^7.0.4",
+    "prettier": "^2.6.2",
+    "sass": "^1.43.4",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.7",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vue-tsc": "^0.34.7"
+  },
+  "scripts": {
+    "dev": "vite serve --mode development",
+    "test": "vite serve --mode test",
+    "prod": "vite build --mode production",
+    "serve": "vite preview",
+    "lint": "eslint src/**/*.{ts,js,vue} --fix",
+    "prepare": "husky install",
+    "prettier": "prettier --write ."
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^1.0.0",
+    "@wangeditor/editor": "^5.0.0",
+    "@wangeditor/editor-for-vue": "^5.1.10",
+    "axios": "^0.24.0",
+    "better-scroll": "^2.4.2",
+    "echarts": "^5.2.2",
+    "element-plus": "^2.2.5",
+    "nprogress": "^0.2.0",
+    "path-browserify": "^1.0.1",
+    "path-to-regexp": "^6.2.0",
+    "pinia": "^2.0.12",
+    "qiniu-js": "^3.4.1",
+    "screenfull": "^6.0.0",
+    "sortablejs": "^1.15.6",
+    "vue": "^3.2.25",
+    "vue-i18n": "^9.1.9",
+    "vue-router": "^4.0.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/ymxnetg/authority-base-web"
+  },
+  "author": {
+    "name": "有来开源组织"
+  },
+  "license": "MIT",
+  "readme": "ERROR: No README data found!",
+  "_id": "vue3-element-admin@1.0.0"
+}

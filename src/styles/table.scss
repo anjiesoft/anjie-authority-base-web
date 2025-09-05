@@ -1,0 +1,42 @@
+.resource-tree-node {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  padding-right: 8px;
+  margin-left: -28px !important;
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .el-checkbox--default {
+    background-color: transparent !important;
+  }
+}
+.el-tree-node__content {
+  height: auto !important;
+}
+
+.el-checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  &:hover {
+    background-color: var(--el-tree-node-hover-bg-color);
+  }
+  &:active {
+    background-color: var(--el-tree-node-hover-bg-color);
+  }
+}
+
+.el-checkbox.el-checkbox--small {
+  margin: 5px;
+  z-index: 999;
+  background: #fff;
+}
+
+.el-tag {
+  margin-right: 10px;
+}
