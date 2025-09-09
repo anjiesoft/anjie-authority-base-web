@@ -57,7 +57,17 @@
           </span>
         </el-form-item>
       </el-tooltip>
-
+        <div>
+          <el-text class="mx-1">默认账号:</el-text>
+        <el-text class="mx-1" type="primary">admin</el-text>
+        </div>
+        <div>
+          <el-text class="mx-1">默认密码:</el-text>
+          <el-text class="mx-1" type="primary">密码</el-text>
+        </div>
+        <div>
+          此环境为demo环境，请不要修改admin账号的密码
+        </div>
       <el-button
         size="default"
         :loading="loading"
